@@ -1,0 +1,10 @@
+# Paired bootstrap CIs for VOC 2007 mAP deltas (1000 resamples, percentile CI, 95%).
+# Recorded post hoc from the author's records: the generating script was not
+# retained on the training machine; the per-sample dumps needed to rerun the
+# bootstrap are released under results/*/fp32/first_positive/per_sample/.
+ce_bce-ce_only seed 42: delta mAP = +0.4951, 95% CI [+0.4871, +0.5033]
+ce_bce-ce_only seed 123: delta mAP = +0.5641, 95% CI [+0.5561, +0.5717]
+ce_bce-ce_only seed 2026: delta mAP = +0.4999, 95% CI [+0.4917, +0.5080]
+ce_bce-ce_mp seed 42: delta mAP = +0.5293, 95% CI [+0.5208, +0.5383]
+ce_bce-ce_mp seed 123: delta mAP = +0.4754, 95% CI [+0.4659, +0.4848]
+ce_bce-ce_mp seed 2026: delta mAP = +0.4742, 95% CI [+0.4651, +0.4833]

@@ -1,0 +1,34 @@
+# Core
+# Pin to the exact tested versions in docs/environment.md for a
+# byte-comparable reproduction (evaluation artifacts are precision- and
+# operation-order-sensitive).
+ms-swift[llm]>=4.0
+transformers>=5.0
+torch>=2.0
+torchvision
+Pillow
+jinja2
+
+# Data processing
+numpy
+scipy
+
+# Progress reporting
+tqdm
+
+# Evaluation
+scikit-learn
+
+# Optional: ASL baseline reproduction
+# torch>=2.0
+# timm
+
+# Optional: dataset download
+# datasets
+# huggingface_hub
+
+# Optional: linear-attention fast path (CUDA only, requires NVIDIA GPU)
+# Enables fused kernels for models with linear/Mamba-style layers (e.g. GLM-4.5, Qwen3 hybrid).
+# Install only on CUDA machines with matching torch/cuda versions; not available on macOS/MPS.
+# flash-linear-attention
+# causal-conv1d

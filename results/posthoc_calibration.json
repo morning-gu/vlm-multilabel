@@ -1,0 +1,530 @@
+[
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_bce_seed_123.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.1818500702921977,
+    "raw": {
+      "mean_ap": 0.9655525561644371,
+      "ece": 0.004080378641537275,
+      "brier": 0.006515238470456097,
+      "nll": 0.02896111164886851,
+      "threshold": 0.05,
+      "balanced_accuracy": 0.983282545208931,
+      "balanced_accuracy_at_0.5": 0.9734455808997154
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9655525561644371,
+      "ece": 0.005070123485628468,
+      "brier": 0.006434271959005855,
+      "nll": 0.02791948010878777,
+      "threshold": 0.07,
+      "balanced_accuracy": 0.9834099248051643,
+      "balanced_accuracy_at_0.5": 0.9734455808997154
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_bce_seed_2026.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.22204357357222,
+    "raw": {
+      "mean_ap": 0.9622517161570812,
+      "ece": 0.004505393951182768,
+      "brier": 0.0070104611120768824,
+      "nll": 0.031078726801138802,
+      "threshold": 0.03,
+      "balanced_accuracy": 0.9839127480983734,
+      "balanced_accuracy_at_0.5": 0.9722544178366661
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9622517161570812,
+      "ece": 0.0056219683737590235,
+      "brier": 0.006895112733764109,
+      "nll": 0.029545846599265187,
+      "threshold": 0.05,
+      "balanced_accuracy": 0.98393966704607,
+      "balanced_accuracy_at_0.5": 0.9722544178366661
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_bce_seed_42.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.1871056799866302,
+    "raw": {
+      "mean_ap": 0.963962831747825,
+      "ece": 0.0038612156046389707,
+      "brier": 0.006486582802608609,
+      "nll": 0.02917482686434687,
+      "threshold": 0.05,
+      "balanced_accuracy": 0.9827804833650589,
+      "balanced_accuracy_at_0.5": 0.9717245921492577
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.963962831747825,
+      "ece": 0.004717216856400622,
+      "brier": 0.006400616315659136,
+      "nll": 0.028074874288724544,
+      "threshold": 0.06,
+      "balanced_accuracy": 0.9829247027635575,
+      "balanced_accuracy_at_0.5": 0.9717245921492577
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_mp_seed_123.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.59782060230716,
+    "raw": {
+      "mean_ap": 0.49024916694384074,
+      "ece": 0.9291600222132124,
+      "brier": 0.9291298776865006,
+      "nll": 11.978469141640193,
+      "threshold": 0.99,
+      "balanced_accuracy": 0.5000052854418755,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.8675682001067976,
+      "ece": 0.5200856855614577,
+      "brier": 0.30177623927593233,
+      "nll": 0.7970981004659248,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.8949076414108277,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_mp_seed_2026.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.5978252672961,
+    "raw": {
+      "mean_ap": 0.4881614183028356,
+      "ece": 0.9291570392607295,
+      "brier": 0.9291239380836487,
+      "nll": 12.009598380511173,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.8880573045408262,
+      "ece": 0.5211789696039527,
+      "brier": 0.3018874153494835,
+      "nll": 0.7973196766121895,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.9149213925004005,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_mp_seed_42.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.59783002803307,
+    "raw": {
+      "mean_ap": 0.43443812457541836,
+      "ece": 0.9291583693988008,
+      "brier": 0.9291265785694123,
+      "nll": 12.00660715869305,
+      "threshold": 0.99,
+      "balanced_accuracy": 0.5000052854418755,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.8563456680257076,
+      "ece": 0.5181597549254631,
+      "brier": 0.30210063606500626,
+      "nll": 0.797753783212415,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.8778819791972637,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_only_seed_123.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.597784576741596,
+    "raw": {
+      "mean_ap": 0.4016477320334838,
+      "ece": 0.9291789314046092,
+      "brier": 0.9291676223278046,
+      "nll": 12.786390290078499,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.8739665567243943,
+      "ece": 0.5236184596461702,
+      "brier": 0.30703050941228865,
+      "nll": 0.8077833572559922,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.8811573669314384,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_only_seed_2026.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.597781188348094,
+    "raw": {
+      "mean_ap": 0.4622820515205882,
+      "ece": 0.9291690142804182,
+      "brier": 0.9291478097438812,
+      "nll": 12.300409918336324,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.8779912427164305,
+      "ece": 0.5208083805003729,
+      "brier": 0.30398074984550477,
+      "nll": 0.8015863213828336,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.891116913408041,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_ce_only_seed_42.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.59795440822482,
+    "raw": {
+      "mean_ap": 0.46889421211297594,
+      "ece": 0.9291599597186091,
+      "brier": 0.9291297137737274,
+      "nll": 12.208638222184923,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.8849703882184592,
+      "ece": 0.5213265758453114,
+      "brier": 0.3035816580057144,
+      "nll": 0.8007789782625856,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.9023073196411133,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_full_seed_123.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.1693339745648588,
+    "raw": {
+      "mean_ap": 0.9642204295815123,
+      "ece": 0.004260382642499483,
+      "brier": 0.006679617012559902,
+      "nll": 0.02998166369823373,
+      "threshold": 0.05,
+      "balanced_accuracy": 0.9837969303131103,
+      "balanced_accuracy_at_0.5": 0.9727569937705993
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9642204295815123,
+      "ece": 0.005348943495691532,
+      "brier": 0.006602860170823987,
+      "nll": 0.029030196087719312,
+      "threshold": 0.08,
+      "balanced_accuracy": 0.9838776290416718,
+      "balanced_accuracy_at_0.5": 0.9727569937705993
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_full_seed_2026.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.1823648584790192,
+    "raw": {
+      "mean_ap": 0.9650152815765154,
+      "ece": 0.004306021135833151,
+      "brier": 0.006342449205112644,
+      "nll": 0.02920371088653369,
+      "threshold": 0.04,
+      "balanced_accuracy": 0.9838019788265229,
+      "balanced_accuracy_at_0.5": 0.9735154807567596
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9650152815765152,
+      "ece": 0.005405283316719178,
+      "brier": 0.006283063559385483,
+      "nll": 0.02815466537557698,
+      "threshold": 0.07,
+      "balanced_accuracy": 0.9839467167854309,
+      "balanced_accuracy_at_0.5": 0.9735154807567596
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_full_seed_42.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.1836466095498086,
+    "raw": {
+      "mean_ap": 0.9635826164738855,
+      "ece": 0.0039027813492313176,
+      "brier": 0.006430248575634323,
+      "nll": 0.02858217261279487,
+      "threshold": 0.06,
+      "balanced_accuracy": 0.9850440546870232,
+      "balanced_accuracy_at_0.5": 0.9711694940924644
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9635826164738855,
+      "ece": 0.004839497002525784,
+      "brier": 0.006361563254904468,
+      "nll": 0.027566445818675112,
+      "threshold": 0.08,
+      "balanced_accuracy": 0.9849695771932602,
+      "balanced_accuracy_at_0.5": 0.9711694940924644
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/per_sample/voc_2007_zero_shot.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 54.59783508229063,
+    "raw": {
+      "mean_ap": 0.319627805397288,
+      "ece": 0.9289335549413339,
+      "brier": 0.9286821216344834,
+      "nll": 11.91318907142139,
+      "threshold": 0.99,
+      "balanced_accuracy": 0.5028756052255631,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.818415400027131,
+      "ece": 0.5109032674597784,
+      "brier": 0.3034337878227234,
+      "nll": 0.8005888149827912,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.8738152168691158,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/aux_head/voc_2007_aux_head_seed_123.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.2017122355525085,
+    "raw": {
+      "mean_ap": 0.9693301734468504,
+      "ece": 0.006075300038544464,
+      "brier": 0.007204660234128824,
+      "nll": 0.03005440478838775,
+      "threshold": 0.06,
+      "balanced_accuracy": 0.9800916105508805,
+      "balanced_accuracy_at_0.5": 0.966349646449089
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9693300195207366,
+      "ece": 0.006765870141673011,
+      "brier": 0.007137211171357194,
+      "nll": 0.02899782509323402,
+      "threshold": 0.09,
+      "balanced_accuracy": 0.9800466865301132,
+      "balanced_accuracy_at_0.5": 0.966349646449089
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/aux_head/voc_2007_aux_head_seed_2026.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.4491566097248236,
+    "raw": {
+      "mean_ap": 0.9657767844681462,
+      "ece": 0.005092809512059941,
+      "brier": 0.007379479685914703,
+      "nll": 0.03291147330624929,
+      "threshold": 0.04,
+      "balanced_accuracy": 0.9759040027856827,
+      "balanced_accuracy_at_0.5": 0.9559384435415268
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.9657767838265505,
+      "ece": 0.006424286651173103,
+      "brier": 0.00716428537707543,
+      "nll": 0.02906822730509729,
+      "threshold": 0.1,
+      "balanced_accuracy": 0.9758685499429702,
+      "balanced_accuracy_at_0.5": 0.9559384435415268
+    }
+  },
+  {
+    "per_sample_file": "results/voc_2007/fp32/first_positive/aux_head/voc_2007_aux_head_seed_42.jsonl",
+    "num_samples": 4952,
+    "num_classes": 20,
+    "temperature": 1.2279573428788366,
+    "raw": {
+      "mean_ap": 0.9752242437208544,
+      "ece": 0.002240545951622119,
+      "brier": 0.005574577783409041,
+      "nll": 0.022224092709342315,
+      "threshold": 0.04,
+      "balanced_accuracy": 0.9845763981342316,
+      "balanced_accuracy_at_0.5": 0.972322803735733
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.97522331717293,
+      "ece": 0.002316303349503083,
+      "brier": 0.005478236431372352,
+      "nll": 0.0212405998297867,
+      "threshold": 0.05,
+      "balanced_accuracy": 0.9846272081136703,
+      "balanced_accuracy_at_0.5": 0.972322803735733
+    }
+  },
+  {
+    "per_sample_file": "results/chestxray14_30k/fp32/first_positive/per_sample/chestxray14_30k_ce_bce_seed_123.jsonl",
+    "num_samples": 25596,
+    "num_classes": 14,
+    "temperature": 1.1537309053094946,
+    "raw": {
+      "mean_ap": 0.2612479890978764,
+      "ece": 0.12610567784451615,
+      "brier": 0.10370148132954325,
+      "nll": 0.34009209246848143,
+      "threshold": 0.17,
+      "balanced_accuracy": 0.6580327886955014,
+      "balanced_accuracy_at_0.5": 0.6188471153311964
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.2612479890978764,
+      "ece": 0.13954216906335284,
+      "brier": 0.10332552220539323,
+      "nll": 0.33686771554441985,
+      "threshold": 0.19,
+      "balanced_accuracy": 0.6579906013129013,
+      "balanced_accuracy_at_0.5": 0.6188471153311964
+    }
+  },
+  {
+    "per_sample_file": "results/chestxray14_30k/fp32/first_positive/per_sample/chestxray14_30k_ce_only_seed_123.jsonl",
+    "num_samples": 25596,
+    "num_classes": 14,
+    "temperature": 54.59789988072665,
+    "raw": {
+      "mean_ap": 0.0776972711562496,
+      "ece": 0.9240783669590601,
+      "brier": 0.9240782005446297,
+      "nll": 14.720703714945486,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.2617734322617135,
+      "ece": 0.514837825004714,
+      "brier": 0.3337756097316742,
+      "nll": 0.8626858424129483,
+      "threshold": 0.59,
+      "balanced_accuracy": 0.6239798579897199,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/chestxray14_30k/fp32/first_positive/per_sample/chestxray14_30k_zero_shot.jsonl",
+    "num_samples": 25596,
+    "num_classes": 14,
+    "temperature": 54.59789708727002,
+    "raw": {
+      "mean_ap": 0.08319653256564925,
+      "ece": 0.9240783989797736,
+      "brier": 0.924078277179173,
+      "nll": 14.707203884802524,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.18266853563434124,
+      "ece": 0.5094606348489518,
+      "brier": 0.3287850001028606,
+      "nll": 0.8523818479623005,
+      "threshold": 0.59,
+      "balanced_accuracy": 0.6014471453215394,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/celeba_30k/fp32/first_positive/per_sample/celeba_30k_ce_bce_seed_123.jsonl",
+    "num_samples": 19962,
+    "num_classes": 40,
+    "temperature": 1.1873752010953798,
+    "raw": {
+      "mean_ap": 0.7004430854375467,
+      "ece": 0.059618901762140145,
+      "brier": 0.08703403831459582,
+      "nll": 0.3003706048600308,
+      "threshold": 0.19,
+      "balanced_accuracy": 0.8102466412354261,
+      "balanced_accuracy_at_0.5": 0.7671243521384895
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.7004430854375467,
+      "ece": 0.06917125469547065,
+      "brier": 0.08728890334023162,
+      "nll": 0.2963184479359038,
+      "threshold": 0.24,
+      "balanced_accuracy": 0.8103704816196113,
+      "balanced_accuracy_at_0.5": 0.7671243521384895
+    }
+  },
+  {
+    "per_sample_file": "results/celeba_30k/fp32/first_positive/per_sample/celeba_30k_ce_only_seed_123.jsonl",
+    "num_samples": 19962,
+    "num_classes": 40,
+    "temperature": 54.59795982797662,
+    "raw": {
+      "mean_ap": 0.30714489456576644,
+      "ece": 0.7687296814953035,
+      "brier": 0.7687256194651126,
+      "nll": 10.76774384704129,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.48548157500194683,
+      "ece": 0.3953948463374585,
+      "brier": 0.2907490886747837,
+      "nll": 0.7752466460092966,
+      "threshold": 0.59,
+      "balanced_accuracy": 0.6274433576700176,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  },
+  {
+    "per_sample_file": "results/celeba_30k/fp32/first_positive/per_sample/celeba_30k_zero_shot.jsonl",
+    "num_samples": 19962,
+    "num_classes": 40,
+    "temperature": 54.59795866126228,
+    "raw": {
+      "mean_ap": 0.3154354830687389,
+      "ece": 0.7687434911383033,
+      "brier": 0.7687429297715426,
+      "nll": 11.610360017217324,
+      "threshold": 0.01,
+      "balanced_accuracy": 0.5,
+      "balanced_accuracy_at_0.5": 0.5
+    },
+    "temperature_scaled": {
+      "mean_ap": 0.4157198344479628,
+      "ece": 0.38994030386811146,
+      "brier": 0.2929190889000893,
+      "nll": 0.7796242596848708,
+      "threshold": 0.58,
+      "balanced_accuracy": 0.5951665405431413,
+      "balanced_accuracy_at_0.5": 0.5
+    }
+  }
+]

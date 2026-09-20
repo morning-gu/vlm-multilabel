@@ -1,0 +1,37 @@
+[project]
+name = "vlm-multilabel"
+version = "0.1.0"
+description = "Hybrid loss training for multi-label classification with autoregressive VLMs"
+requires-python = ">=3.10"
+dependencies = [
+  "ms-swift[llm]>=4.0",
+  "transformers>=5.0",
+  "torch>=2.0",
+  "torchvision",
+  "pillow",
+  "jinja2",
+  "numpy",
+  "scipy",
+  "scikit-learn",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+vlm-multilabel = "vlm_multilabel.cli:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vlm_multilabel*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

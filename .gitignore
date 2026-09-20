@@ -1,0 +1,18 @@
+/data/
+checkpoints/
+*.pyc
+__pycache__/
+.venv/
+*.egg-info/
+.DS_Store
+wandb/
+logs/
+*.log
+.playwright-cli/
+.idea
+uv.lock
+
+# Local-only working directories (intentionally untracked):
+/paper/
+/docs/paper/
+/docs/pre_registration.md
